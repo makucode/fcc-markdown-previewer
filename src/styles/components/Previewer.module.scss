@@ -1,0 +1,11 @@
+@import "../globals";
+
+.Previewer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    background-color: $light;
+    width: 100vw;
+    height: calc(100vh - 4rem);
+}

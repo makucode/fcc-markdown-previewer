@@ -1,0 +1,23 @@
+@import "../../globals";
+
+.Editor {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: $mono;
+    background-color: $offLight;
+}
+
+.EditorInput {
+    min-width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    resize: none;
+    background-color: $offLight;
+    font-size: 1.125rem;
+    padding: 0;
+    margin: 0;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
