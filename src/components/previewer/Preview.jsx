@@ -9,7 +9,15 @@ const Preview = () => {
     return (
         <div className={styles.Preview}>
             <div id="preview" className={styles.PreviewContent}>
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
+                    components={{
+                        // Rewrite `em`s (`*like so*`) to `i` with a red foreground color.
+                        em: ({ node, ...props }) => (
+                            <i style={{ color: "red" }} {...props} />
+                        ),
+                    }}
+                >
                     {markdown}
                 </ReactMarkdown>
             </div>

@@ -10,4 +10,45 @@
     box-sizing: border-box;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        border-bottom: 1px solid #d8dee4;
+        padding-bottom: 0.3em;
+    }
+
+    pre {
+        padding: 16px;
+        overflow: auto;
+        font-size: 85%;
+        line-height: 1.45;
+        background-color: #f6f8fa;
+        border-radius: 6px;
+
+        code {
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+            border-radius: 0;
+        }
+    }
+
+    code {
+        padding: 0.2em 0.4em;
+        margin: 0;
+        background-color: #eff1f3;
+        border-radius: 6px;
+    }
+
+    blockquote {
+        background: #f9f9f9;
+        border-left: 10px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 0.1em 10px 0.1em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+    }
 }
