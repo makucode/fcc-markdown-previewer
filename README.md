@@ -4,7 +4,7 @@ This project was built with React and SASS as a [freeCodeCamp project](https://w
 
 I'm using [react-markdown](https://github.com/remarkjs/react-markdown) to parse the markup.
 
-Contact me: [makucode@gmail.com](makucode@gmail.com)
+**Contact me: [makucode@gmail.com](makucode@gmail.com)**
 
 ### Startup
 
