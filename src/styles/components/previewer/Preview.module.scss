@@ -1,13 +1,13 @@
 @import "../../globals";
 
 .Preview {
+    overflow: scroll;
 }
 
 .PreviewContent {
     min-width: 100%;
     height: 100%;
     box-sizing: border-box;
-    overflow: scroll;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
 }
